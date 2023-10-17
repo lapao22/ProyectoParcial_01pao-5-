@@ -44,11 +44,12 @@ namespace ProyectoParcial_01pao.Formas
             this.fábricaDeTalaveraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ecuaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.visorDeImágenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.matemáticasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.label1 = new System.Windows.Forms.Label();
-            this.matemáticasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.juegoDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,7 +78,7 @@ namespace ProyectoParcial_01pao.Formas
             // menuSalir
             // 
             this.menuSalir.Name = "menuSalir";
-            this.menuSalir.Size = new System.Drawing.Size(96, 22);
+            this.menuSalir.Size = new System.Drawing.Size(180, 22);
             this.menuSalir.Text = "Salir";
             this.menuSalir.Click += new System.EventHandler(this.menuSalir_Click);
             // 
@@ -113,7 +114,8 @@ namespace ProyectoParcial_01pao.Formas
             this.fábricaDeTalaveraToolStripMenuItem,
             this.ecuaciónToolStripMenuItem,
             this.visorDeImágenesToolStripMenuItem,
-            this.matemáticasToolStripMenuItem});
+            this.matemáticasToolStripMenuItem,
+            this.juegoDeToolStripMenuItem});
             this.ejerciciosToolStripMenuItem.Name = "ejerciciosToolStripMenuItem";
             this.ejerciciosToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.ejerciciosToolStripMenuItem.Text = "Ejercicios";
@@ -121,44 +123,51 @@ namespace ProyectoParcial_01pao.Formas
             // menuCalculadora
             // 
             this.menuCalculadora.Name = "menuCalculadora";
-            this.menuCalculadora.Size = new System.Drawing.Size(180, 22);
+            this.menuCalculadora.Size = new System.Drawing.Size(202, 22);
             this.menuCalculadora.Text = "Área del triángulo";
             this.menuCalculadora.Click += new System.EventHandler(this.menuCalculadora_Click);
             // 
             // cambioDePesosADólaresToolStripMenuItem
             // 
             this.cambioDePesosADólaresToolStripMenuItem.Name = "cambioDePesosADólaresToolStripMenuItem";
-            this.cambioDePesosADólaresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cambioDePesosADólaresToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.cambioDePesosADólaresToolStripMenuItem.Text = "Cambio de divisa";
             this.cambioDePesosADólaresToolStripMenuItem.Click += new System.EventHandler(this.cambioDePesosADólaresToolStripMenuItem_Click);
             // 
             // latidosPorMinutoToolStripMenuItem
             // 
             this.latidosPorMinutoToolStripMenuItem.Name = "latidosPorMinutoToolStripMenuItem";
-            this.latidosPorMinutoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.latidosPorMinutoToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.latidosPorMinutoToolStripMenuItem.Text = "Latidos por minuto";
             this.latidosPorMinutoToolStripMenuItem.Click += new System.EventHandler(this.latidosPorMinutoToolStripMenuItem_Click);
             // 
             // fábricaDeTalaveraToolStripMenuItem
             // 
             this.fábricaDeTalaveraToolStripMenuItem.Name = "fábricaDeTalaveraToolStripMenuItem";
-            this.fábricaDeTalaveraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fábricaDeTalaveraToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.fábricaDeTalaveraToolStripMenuItem.Text = "Fábrica de talavera";
             this.fábricaDeTalaveraToolStripMenuItem.Click += new System.EventHandler(this.fábricaDeTalaveraToolStripMenuItem_Click);
             // 
             // ecuaciónToolStripMenuItem
             // 
             this.ecuaciónToolStripMenuItem.Name = "ecuaciónToolStripMenuItem";
-            this.ecuaciónToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ecuaciónToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.ecuaciónToolStripMenuItem.Text = "Ecuación";
             this.ecuaciónToolStripMenuItem.Click += new System.EventHandler(this.ecuaciónToolStripMenuItem_Click);
             // 
             // visorDeImágenesToolStripMenuItem
             // 
             this.visorDeImágenesToolStripMenuItem.Name = "visorDeImágenesToolStripMenuItem";
-            this.visorDeImágenesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.visorDeImágenesToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.visorDeImágenesToolStripMenuItem.Text = "Visor de Imágenes";
             this.visorDeImágenesToolStripMenuItem.Click += new System.EventHandler(this.visorDeImágenesToolStripMenuItem_Click);
+            // 
+            // matemáticasToolStripMenuItem
+            // 
+            this.matemáticasToolStripMenuItem.Name = "matemáticasToolStripMenuItem";
+            this.matemáticasToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.matemáticasToolStripMenuItem.Text = "Matemáticas";
+            this.matemáticasToolStripMenuItem.Click += new System.EventHandler(this.matemáticasToolStripMenuItem_Click);
             // 
             // ayudaToolStripMenuItem
             // 
@@ -190,12 +199,12 @@ namespace ProyectoParcial_01pao.Formas
             this.label1.TabIndex = 1;
             this.label1.Text = "Welcome";
             // 
-            // matemáticasToolStripMenuItem
+            // juegoDeToolStripMenuItem
             // 
-            this.matemáticasToolStripMenuItem.Name = "matemáticasToolStripMenuItem";
-            this.matemáticasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.matemáticasToolStripMenuItem.Text = "Matemáticas";
-            this.matemáticasToolStripMenuItem.Click += new System.EventHandler(this.matemáticasToolStripMenuItem_Click);
+            this.juegoDeToolStripMenuItem.Name = "juegoDeToolStripMenuItem";
+            this.juegoDeToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.juegoDeToolStripMenuItem.Text = "Juego de Formar parejas";
+            this.juegoDeToolStripMenuItem.Click += new System.EventHandler(this.juegoDeToolStripMenuItem_Click_1);
             // 
             // FormaHome
             // 
@@ -239,5 +248,6 @@ namespace ProyectoParcial_01pao.Formas
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem visorDeImágenesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem matemáticasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem juegoDeToolStripMenuItem;
     }
 }

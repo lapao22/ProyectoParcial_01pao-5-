@@ -1,7 +1,7 @@
 ﻿
 namespace ProyectoParcial_01pao.Formas
 {
-    partial class FormaMate
+    partial class FormaJuego
     {
         /// <summary>
         /// Required designer variable.
@@ -29,16 +29,18 @@ namespace ProyectoParcial_01pao.Formas
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormaJuego));
             this.SuspendLayout();
             // 
-            // FormaMate
+            // FormaJuego
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(499, 368);
-            this.Name = "FormaMate";
+            this.ClientSize = new System.Drawing.Size(546, 356);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "FormaJuego";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormaMate";
+            this.Text = "FormaJuego";
             this.ResumeLayout(false);
 
         }

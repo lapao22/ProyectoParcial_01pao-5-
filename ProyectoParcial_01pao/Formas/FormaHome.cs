@@ -93,5 +93,12 @@ namespace ProyectoParcial_01pao.Formas
             FormaMate forma = new FormaMate();
             forma.Show();
         }
+
+
+        private void juegoDeToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            FormaJuego forma = new FormaJuego();
+            forma.Show();
+        }
     }
 }

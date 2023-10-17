@@ -66,5 +66,10 @@ namespace ProyectoParcial_01pao.Formas
             else
                 pictureBoxpaisaje.SizeMode = PictureBoxSizeMode.Normal;
         }
+
+        private void pictureBoxpaisaje_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

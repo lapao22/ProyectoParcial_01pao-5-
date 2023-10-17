@@ -98,6 +98,12 @@
     <Compile Include="Formas\FormaHome.Designer.cs">
       <DependentUpon>FormaHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formas\FormaJuego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaJuego.Designer.cs">
+      <DependentUpon>FormaJuego.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formas\Formalatidos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +146,7 @@
     <Compile Include="Formas\FormaVisor.Designer.cs">
       <DependentUpon>FormaVisor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formas\sum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -156,6 +163,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormaHome.resx">
       <DependentUpon>FormaHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaJuego.resx">
+      <DependentUpon>FormaJuego.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formas\Formalatidos.resx">
       <DependentUpon>Formalatidos.cs</DependentUpon>

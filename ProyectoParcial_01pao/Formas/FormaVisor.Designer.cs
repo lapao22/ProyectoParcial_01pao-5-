@@ -63,7 +63,7 @@ namespace ProyectoParcial_01pao.Formas
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 85F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 11F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 12F));
             this.tableLayoutPanel1.Controls.Add(this.pictureBoxpaisaje, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.checkBoxajustar, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.button1, 1, 1);
@@ -86,10 +86,11 @@ namespace ProyectoParcial_01pao.Formas
             this.pictureBoxpaisaje.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxpaisaje.Image")));
             this.pictureBoxpaisaje.Location = new System.Drawing.Point(3, 3);
             this.pictureBoxpaisaje.Name = "pictureBoxpaisaje";
-            this.pictureBoxpaisaje.Size = new System.Drawing.Size(562, 329);
+            this.pictureBoxpaisaje.Size = new System.Drawing.Size(561, 329);
             this.pictureBoxpaisaje.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxpaisaje.TabIndex = 0;
             this.pictureBoxpaisaje.TabStop = false;
+            this.pictureBoxpaisaje.Click += new System.EventHandler(this.pictureBoxpaisaje_Click);
             // 
             // checkBoxajustar
             // 
@@ -111,7 +112,7 @@ namespace ProyectoParcial_01pao.Formas
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button1.Location = new System.Drawing.Point(88, 338);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(477, 32);
+            this.button1.Size = new System.Drawing.Size(476, 32);
             this.button1.TabIndex = 3;
             // 
             // buttonborrar
@@ -160,7 +161,7 @@ namespace ProyectoParcial_01pao.Formas
             this.tableLayoutPanel2.ColumnCount = 2;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(571, 3);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(570, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
